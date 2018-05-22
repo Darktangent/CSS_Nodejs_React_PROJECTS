@@ -1,0 +1,81 @@
+/*
+Selector{
+
+    Property : value
+}
+h2, p for selecting h2 and p
+h2 p selects p inside of h2
+h2 > p selects p who has a h2 parent
+h2 + p selects p element right after h2
+
+
+
+*/
+*{
+
+    
+}
+body{
+    background-image: url(photo.jfif);
+    background-size: cover;
+}
+h2{
+
+    color: red;
+    text-align: center;
+    border: 5px solid #E498AF;
+    cursor: pointer;
+}
+h2
+{
+
+    color : #983352;
+}
+p {
+
+    text-align: justify;
+    
+    text-transform: capitalize;
+    line-height: 40px;
+    
+    font-weight: bolder;
+    font-size: 100%;
+    font-family: 'Share Tech Mono', monospace;
+}
+img {
+    float: left;
+}
+/*Clear float right*/
+footer{
+
+    clear:both;
+    text-align: center;
+    color: whitesmoke;
+}
+li {
+
+    list-style: none;
+    color: #983352;
+    
+}
+nav ul li {
+
+    display: inline-block;
+}
+li a{
+    color:#983352;
+}
+.border{
+
+    border: 5px solid #983352;
+}
+.webtext {
+    color: #983352;
+    border: 5px dashed beige;
+}
+#div1{
+    background-color: #E498AF;
+}
+#div2{
+    background-color: aquamarine;
+}

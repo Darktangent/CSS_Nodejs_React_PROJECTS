@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+</head>
+<body>
+    <!--Some HTML5 symantic elems-->
+    <header>
+        <h1>Register</h1>
+
+    </header>
+    <nav>
+            <a href="newpage.html">New Page</a><br>
+            <a href="register.html">Register</a>
+
+    </nav>
+    <!--Use GET-->
+    <form method="GET" action="">
+        First Name:<input type="text" placeholder="your first name" name="firstname><br>
+        Last Name: <input type="text" placeholder="your last name" name="lastname"><br>
+        Email: <input type="email" required name="email"><br>
+        Password: <input type="password" min="8" required name="password">
+        Birthday: <input type="date" name="date"><br>
+        Gender:<br>
+         <input type="radio" name="gender" value="male">Male<br>
+         <input typr="radio" name="gender" value="female">Female<br>
+         <input typr="radio" name="gender" value="other">Other<br>
+        
+        pets: <br>
+        
+        <input type="checkbox" name="cats">Cats<br>
+        <input type="checkbox" name="dogs">Dogs<br>
+
+        Cars:<br>
+        <select multiple name="cars">
+            <option value="volvo" name="volvo">Volvo</option>
+            <option value="audi" name="audi">Audi</option>
+
+
+
+        </select><br>
+        
+
+        <input type="submit" value="Register">
+        <input type="reset" >
+
+
+
+
+
+    </form>
+</body>
+</html>
