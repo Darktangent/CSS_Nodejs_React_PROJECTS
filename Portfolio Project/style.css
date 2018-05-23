@@ -1,4 +1,7 @@
 
+body{
+    margin: 0px;
+}
 .container{
 
     display:flex ;
@@ -13,6 +16,8 @@ h1{
     border-right: 2px solid pink;
     width:400px;
     text-align: center;
+    box-shadow: 4px 4px 5px #88888888;
+    margin-top: 10px;
 }
 
 img {
@@ -20,4 +25,9 @@ img {
     width:450px;
     height:300px;
     margin : 10px;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+    animation: 0ms;
 }
